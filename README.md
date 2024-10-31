@@ -37,6 +37,11 @@ For an overview of the project, please see the [Project Documentation](docs/Proj
     ```
 
 ## Usage
+Run the `cache_model.py` script to download the pre-trained models into your local machine.
+
+```bash
+python cache_model.py
+```
 Please refer to the [main notebook](main.ipynb) for running the system.
 
 ## Requirements

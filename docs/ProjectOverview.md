@@ -36,7 +36,7 @@ The output of the system is a comma-separated file (CSV) that contains the follo
 - Summary of the project description (only for the projects with relevance score > 50)
 
 
-Future work and limitations:
+## Future work and limitations:
 - The current web scraper does not support pagination.
 - The current system does not support the extraction of the project's image.
 - A more robust/dynamic set of parameter is required for the summarization model. For instance, the maximum length of the summary, the minimum length of the summary, etc.
@@ -45,3 +45,4 @@ Future work and limitations:
     - Generate summaries in a custom format/length
     - Generate more accurate/appropriate summaries of scientific/technical texts
 - The system can be extended to other websites with similar structures or potentially use APIs to extract the data.
+- The system can be extended to support other output formats (e.g., JSON, Excel, etc.) or other storage options (e.g., database).
