@@ -46,3 +46,4 @@ The output of the system is a comma-separated file (CSV) that contains the follo
     - Generate more accurate/appropriate summaries of scientific/technical texts
 - The system can be extended to other websites with similar structures or potentially use APIs to extract the data.
 - The system can be extended to support other output formats (e.g., JSON, Excel, etc.) or other storage options (e.g., database).
+- Include unit tests. 
