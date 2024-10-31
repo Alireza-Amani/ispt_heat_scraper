@@ -1,0 +1,14 @@
+ipykernel
+validators
+beautifulsoup4
+requests
+ipywidgets==8.1.5
+jupyterlab-widgets==3.0.13
+widgetsnbextension==4.0.13
+transformers
+torch
+protobuf
+tiktoken
+tokenizers
+numpy
+sentencepiece

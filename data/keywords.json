@@ -1,0 +1,196 @@
+{
+    "decarbonization": {
+      "synonyms": [
+        "decarbonization",
+        "decarbonizing",
+        "carbon reduction",
+        "emissions reduction"
+      ],
+      "score": 40
+    },
+    "heat pump": {
+      "synonyms": [
+        "heat pump",
+        "heatpump"
+      ],
+      "score": 35
+    },
+    "industrial heat": {
+      "synonyms": [
+        "industrial heat",
+        "process heat"
+      ],
+      "score": 30
+    },
+    "low carbon": {
+      "synonyms": [
+        "low carbon",
+        "low-carbon",
+        "low emission",
+        "zero-carbon",
+        "zero carbon",
+        "emissions-free",
+        "carbon neutral",
+        "clean energy",
+        "sustainable energy",
+        "net-zero",
+        "net zero"
+      ],
+      "score": 30
+    },
+    "carbon capture": {
+      "synonyms": [
+        "carbon capture",
+        "captured emission",
+        "carbon sequestration",
+        "carbon storage",
+        "carbon removal",
+        "carbon offset",
+        "carbon sink",
+        "carbon negative",
+        "negative emissions"
+      ],
+      "score": 35
+    },
+    "CO2 emissions": {
+      "synonyms": [
+        "CO2 emissions",
+        "industrial emissions",
+        "carbon-dioxide emissions",
+        "greenhouse gas emissions",
+        "carbon footprint"
+      ],
+      "score": 30
+    },
+    "hydrogen": {
+      "synonyms": [
+        "hydrogen",
+        "green hydrogen",
+        "blue hydrogen"
+      ],
+      "score": 25
+    },
+    "biomass": {
+      "synonyms": [
+        "biomass",
+        "bio-derived",
+        "bio derived",
+        "biofuel",
+        "bioenergy"
+      ],
+      "score": 25
+    },
+    "ammonia": {
+      "synonyms": [
+        "ammonia",
+        "green ammonia"
+      ],
+      "score": 25
+    },
+    "synthetic hydrocarbons": {
+      "synonyms": [
+        "synthetic hydrocarbons",
+        "e-fuels",
+        "synthetic fuels"
+      ],
+      "score": 25
+    },
+    "geothermal energy": {
+      "synonyms": [
+        "geothermal energy"
+      ],
+      "score": 25
+    },
+    "heat source": {
+      "synonyms": [
+        "heat source",
+        "heat upgrading",
+        "heat upgrade"
+      ],
+      "score": 25
+    },
+    "microwave dry": {
+      "synonyms": [
+        "microwave dry",
+        "microwave drying",
+        "radio frequency drying"
+      ],
+      "score": 25
+    },
+    "fuel switch": {
+      "synonyms": [
+        "fuel switch",
+        "fuel substitution"
+      ],
+      "score": 30
+    },
+    "resource efficiency": {
+      "synonyms": [
+        "resource efficiency",
+        "energy efficiency",
+        "efficient energy",
+        "material efficiency",
+        "process efficiency",
+        "waste heat",
+        "waste energy",
+        "fuel reduction"
+      ],
+      "score": 30
+    },
+    "recycling": {
+      "synonyms": [
+        "recycling",
+        "material recovery"
+      ],
+      "score": 20
+    },
+    "district heating": {
+      "synonyms": [
+        "district heating",
+        "district cooling",
+        "combined heat and power"
+      ],
+      "score": 20
+    },
+    "electrical boiler": {
+      "synonyms": [
+        "electrical boiler",
+        "electric boiler",
+        "electrode boiler"
+      ],
+      "score": 35
+    },
+    "resistance heating": {
+      "synonyms": [
+        "resistance heating",
+        "Joule heating",
+        "ohmic heating"
+      ],
+      "score": 25
+    },
+    "radiative cooling": {
+      "synonyms": [
+        "radiative cooling",
+        "passive cooling"
+      ],
+      "score": 25
+    },
+    "fuel cell": {
+      "synonyms": [
+        "fuel cell",
+        "electrochemical cell"
+      ],
+      "score": 30
+    },
+    "renewable energy": {
+      "synonyms": [
+        "renewable energy",
+        "alternative fuel",
+        "alternative source",
+        "alternative energy",
+        "clean energy",
+        "sustainable energy"
+      ],
+      "score": 25
+    }
+  }
