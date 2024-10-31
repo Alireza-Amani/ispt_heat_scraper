@@ -15,8 +15,6 @@ The package provides a class `IsptHeatScraper` that can be used to:
     - Looking for specific keywords in the project description
     - Comparing AI-extracted keywords from the project description to a list of predefined keywords
 
-    (Refer to the [data](#data) section for more details on the predefined keywords)
-
 - Use a pre-trained NLP (Natural Language Processing) model to summarize the project description
 
 ## Features
@@ -25,6 +23,10 @@ The package provides a class `IsptHeatScraper` that can be used to:
 * Uses the `transformers` library to
     - Summarize the project description (Google's Pegasus model)
     - Extract keywords from the project description (VLT5 model)
+
+## Documentation
+
+For an overview of the project, please see the [Project Documentation](docs/ProjectOverview.md).
 
 ## Installation
 
