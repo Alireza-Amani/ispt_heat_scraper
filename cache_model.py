@@ -16,7 +16,23 @@ MODEL_NAME_2 = "Voicelab/vlt5-base-keywords"
 
 
 def is_model_cached(model_name: str) -> bool:
-    """Checks if the specified model is cached locally."""
+    """Checks if the specified model is cached locally.
+
+    Parameters
+    ----------
+    model_name : str
+        The name of the model to check.
+
+    Returns
+    -------
+    bool
+        True if the model is cached, False otherwise.
+
+    Examples
+    --------
+    >>> is_model_cached("bert-base-uncased")
+    True
+    """
     # Construct the expected cache directory path
     cache_dir = os.path.join(os.path.expanduser(
         "~"), ".cache", "huggingface", "hub", "models--"+model_name.replace("/", "--"))

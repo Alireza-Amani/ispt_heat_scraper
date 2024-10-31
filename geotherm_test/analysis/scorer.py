@@ -88,6 +88,8 @@ class DecarbonizationScorer:
         weight : int, optional
             Weighting factor for the AI keywords score, by default 2.
         """
+
+        # Check if the AI-generated keywords match the target keywords
         for keygroup in self.target_keywords:
 
             group_keywords = self.target_keywords[keygroup].get('synonyms', [])
@@ -105,6 +107,9 @@ class DecarbonizationScorer:
         text : str
             The input text to be scored.
         """
+
+        # Check if the text contains the target keywords
+        # iterate over the target keywords of each group
         for keygroup in self.target_keywords:
 
             group_keywords = self.target_keywords[keygroup].get('synonyms', [])
@@ -112,6 +117,8 @@ class DecarbonizationScorer:
 
             for keyword in group_keywords:
                 if number_of_hits := fuzzy_match_keyword(text, keyword):
+                    # the multiplier is the number of times the keyword appears in the text
+                    # multiplied by the score of the keyword group
                     self.text_score += number_of_hits * group_score
 
     def __call__(self, text: str, ai_gen_keywords: list[str] = None) -> tuple[int, int]:

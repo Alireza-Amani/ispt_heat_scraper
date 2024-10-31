@@ -87,18 +87,25 @@ class CaseStudy:
         Fetches content, extracts text, generates keywords (optional),
         determines relevance, and summarizes (if relevant).
         """
+
+        # Fetch html content
         self._get_html_content()
+
+        # Extract text from html content
         self._get_text()
 
         if self.generate_keywords:
+            # Extract keywords from text using VLT5 model
             self._extract_keywords()
 
+        # Determine relevance score and categorize the case study
         self._determine_relevance()
 
         if self.verbose:
             self._print_analysis_details()
 
         if self.relevance_score >= 50:
+            # Summarize the text if relevant using Google Pegasus model
             self._summarize()
 
     def _get_html_content(self):
@@ -135,7 +142,12 @@ class CaseStudy:
 
     def _determine_relevance(self):
         """Calculates the relevance score and categorizes the case study."""
+
+        # Calculate relevance scores based on methods A and B (refer to the docs/ProjectOverview.md)
+        # and take the maximum of the two scores
         self.relevance_score = max(self.scorer(self.text, self.keywords))
+
+        # Ensure relevance score is between 0 and 100
         self.relevance_score = max(0, min(100, self.relevance_score))
 
         if self.relevance_score >= 50:
@@ -164,8 +176,13 @@ class CaseStudy:
         str
             Comma-separated string with case study information.
         """
+        # Replace commas in the summary with semicolons
         keywords_str = "; ".join(self.keywords) if self.keywords else ""
+
+        # Replace commas in the summary with semicolons
         summary_str = self.summary.replace(",", ";") if self.summary else ""
+
+        # Return the case study information as a CSV row
         return f'"{self.title}","{self.url}",{self.relevance_score},"{keywords_str}","{summary_str}"'
 
     def __repr__(self):
