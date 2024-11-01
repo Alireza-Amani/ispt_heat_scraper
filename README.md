@@ -31,7 +31,7 @@ For an overview of the project, please see the [Project Documentation](docs/Proj
 ## Installation
 
     ```bash
-    git clone URL
+    git clone https://github.com/Alireza-Amani/ispt_heat_scraper.git
     cd ispt_heat_scraper
     pip install .
     ```

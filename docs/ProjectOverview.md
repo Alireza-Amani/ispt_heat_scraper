@@ -5,7 +5,7 @@ I am interested in the projects relevant to the decarbonization of the industria
 I designed a Python package, named *ispt_heat_scraper*, do automate the search for these projects. ispt_heat_scraper uses `beautifulsoup4` and `requests` libraries to scrape the ISPT website and extract the title, link, and full description of the search result.
 * I choose bs4 (over more advanced libraries like Selenium) because it is lightweight and sufficient for the task at hand.
 
-The next step is to determine the relevance of the projects to our focus area. I used two methods (methods A and B) for this both of which depend of a list of pre-defined target keywords.
+The next step is to determine the relevance of the projects to our focus area. I used two methods (methods A and B) for this both of which depend on a list of pre-defined target keywords.
 These keywords are grouped under different category, each category given different score, and are stored in a [json file](../data/keywords.json). These keywords are based on two important peer-reviewed papers, which I will quote the highlighted text chunks below.
 - [To decarbonize industry, we must decarbonize heat](https://www.sciencedirect.com/science/article/pii/S2542435120305754)
     > **R&D pathways**
@@ -46,4 +46,4 @@ The output of the system is a comma-separated file (CSV) that contains the follo
     - Generate more accurate/appropriate summaries of scientific/technical texts
 - The system can be extended to other websites with similar structures or potentially use APIs to extract the data.
 - The system can be extended to support other output formats (e.g., JSON, Excel, etc.) or other storage options (e.g., database).
-- Include unit tests. 
+- Include unit tests.
